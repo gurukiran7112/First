@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-27T07:14:21Z" name="Default suite" finished-at="2025-02-27T07:14:36Z" duration-ms="14292">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateContactTest.CreateContactWithSupportDateTest()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" name="CreateContactWithSupportDateTest" class="com.comcast.crm.contacttest.CreateContactTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test started-at="2025-02-27T07:14:21Z" name="Default test" finished-at="2025-02-27T07:14:36Z" duration-ms="14292">
+      <class name="com.comcast.crm.contacttest.CreateContactTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:21Z" name="configBS" finished-at="2025-02-27T07:14:21Z" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:21Z" name="configBC" finished-at="2025-02-27T07:14:23Z" duration-ms="1997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:23Z" name="configBM" finished-at="2025-02-27T07:14:26Z" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="CreateContactWithSupportDateTest()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:26Z" name="CreateContactWithSupportDateTest" finished-at="2025-02-27T07:14:34Z" duration-ms="8578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateContactWithSupportDateTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:34Z" name="configAM" finished-at="2025-02-27T07:14:36Z" duration-ms="1480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:36Z" name="configAC" finished-at="2025-02-27T07:14:36Z" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.contacttest.CreateContactTest@790da477]" started-at="2025-02-27T07:14:36Z" name="configAS" finished-at="2025-02-27T07:14:36Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.contacttest.CreateContactTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

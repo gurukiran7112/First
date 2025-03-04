@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Search test case complited sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Search test case complited sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Search test case complited sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Search test case complited sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Application launched sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[Search test case complited sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-04T16:55:25 IST" name="Default suite" finished-at="2025-02-04T16:55:49 IST" duration-ms="23457">
+    <groups>
+    </groups>
+    <test started-at="2025-02-04T16:55:25 IST" name="Default test" finished-at="2025-02-04T16:55:49 IST" duration-ms="23457">
+      <class name="testcases.SearchTest">
+        <test-method signature="searchtestcase()[pri:0, instance:testcases.SearchTest@3d680b5a]" started-at="2025-02-04T16:55:25 IST" name="searchtestcase" finished-at="2025-02-04T16:55:31 IST" duration-ms="5546" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Search test case complited sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchtestcase -->
+        <test-method signature="searchtestcase()[pri:0, instance:testcases.SearchTest@3d680b5a]" started-at="2025-02-04T16:55:31 IST" name="searchtestcase" finished-at="2025-02-04T16:55:35 IST" duration-ms="4470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Search test case complited sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchtestcase -->
+        <test-method signature="searchtestcase()[pri:0, instance:testcases.SearchTest@3d680b5a]" started-at="2025-02-04T16:55:35 IST" name="searchtestcase" finished-at="2025-02-04T16:55:40 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Search test case complited sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchtestcase -->
+        <test-method signature="searchtestcase()[pri:0, instance:testcases.SearchTest@3d680b5a]" started-at="2025-02-04T16:55:40 IST" name="searchtestcase" finished-at="2025-02-04T16:55:44 IST" duration-ms="4417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Search test case complited sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchtestcase -->
+        <test-method signature="searchtestcase()[pri:0, instance:testcases.SearchTest@3d680b5a]" started-at="2025-02-04T16:55:44 IST" name="searchtestcase" finished-at="2025-02-04T16:55:49 IST" duration-ms="4602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[Search test case complited sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchtestcase -->
+      </class> <!-- testcases.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
