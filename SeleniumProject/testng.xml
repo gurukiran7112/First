@@ -4,7 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="pack2.orgTest"/>
-      
+      <class name="pack1.ContactTest"/>
+ 
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
