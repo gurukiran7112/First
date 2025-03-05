@@ -22,4 +22,10 @@ public class ContactTest {
 	public void modifyContactTest() {
 		System.out.println("execute modifyContactTesttest");
 	}
+	
+	@Test
+	public void modifyTest() {
+		System.out.println("execute modifyContactTesttest");
+	}
+	
 }
