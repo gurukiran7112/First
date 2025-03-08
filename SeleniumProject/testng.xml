@@ -5,9 +5,6 @@
     <classes>
       <class name="pack2.orgTest"/>
       <class name="pack1.ContactTest"/>
- 
-     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-	

@@ -23,9 +23,4 @@ public class ContactTest {
 		System.out.println("execute modifyContactTesttest");
 	}
 	
-	@Test
-	public void modifyTest4554() {
-		System.out.println("execute modifyContactTesttest");
-	}
-	
 }
