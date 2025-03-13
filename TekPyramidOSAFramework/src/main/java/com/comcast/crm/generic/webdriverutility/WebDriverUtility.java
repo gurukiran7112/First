@@ -118,9 +118,9 @@ public class WebDriverUtility {
 		a.scrollToElement(ele).perform();
 	}
 
-	public void scrollByAmt(WebDriver driver) {
+	public void scrollByAmt(WebDriver driver,int x , int y) {
 		Actions a = new Actions(driver);
-		a.scrollByAmount(0, 0).perform();
+		a.scrollByAmount(x, y).perform();
 	}
 
 	public void clickAndHold(WebDriver driver, WebElement ele) {

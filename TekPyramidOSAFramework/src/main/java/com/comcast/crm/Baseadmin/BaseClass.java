@@ -1,4 +1,4 @@
-	package com.comcast.crm.basetest;
+	package com.comcast.crm.Baseadmin;
 
 import java.sql.SQLException;
 
@@ -19,12 +19,9 @@ import com.comcast.crm.generic.fileutility.FileUtility;
 import com.comcast.crm.generic.fileutility.JsonUtility;
 import com.comcast.crm.generic.webdriverutility.JavaUtility;
 import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
-import com.comcast.crm.objectrepositaryutility.AdminPage;
-import com.comcast.crm.objectrepositaryutility.CartPage;
 import com.comcast.crm.objectrepositaryutility.HomePage;
 import com.comcast.crm.objectrepositaryutility.LoginPage;
 import com.comcast.crm.objectrepositaryutility.OrderHistoryPage;
-import com.comcast.crm.objectrepositaryutility.ShoppingAdminPage;
 
 public class BaseClass {
 
@@ -73,7 +70,7 @@ public class BaseClass {
 		}		
 		wLib.waitForPageToLoad(driver);
 
-		String URL = jlib.getDataFromJsonFile("url");
+		String URL = fLib.getDataFromPropertiesFile("url");
 		driver.get(URL);
 	}
 
@@ -83,17 +80,15 @@ public class BaseClass {
 	//	String USERNAME = fLib.getDataFromPropertiesFile("username");
 	//	String PASSWORD = fLib.getDataFromPropertiesFile("password");
 		
-		CartPage cp = new CartPage(driver);
- 		AdminPage ap=new AdminPage(driver);
- 	String username=	fLib.getDataFromPropertiesFile("un");
- 	String password=	fLib.getDataFromPropertiesFile("pwd");
-	ShoppingAdminPage sap=new ShoppingAdminPage(driver);
- 	
-    cp.getAdminbtn().click();
+		String email=fLib.getDataFromPropertiesFile("email");
+		String password=fLib.getDataFromPropertiesFile("password");
 
- 		ap.getPas().sendKeys(username);
- 		ap.getUsr().sendKeys(password);
-      ap.getAdmLogin().click();
+HomePage hp=new HomePage(driver);
+hp.getLogin().click();
+
+LoginPage lp=new LoginPage(driver);
+driver.manage().window().maximize();
+lp.login(email, password);
 
 	}
 
